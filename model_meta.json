@@ -1,0 +1,114 @@
+{
+  "feature_columns": [
+    "Age",
+    "Gender",
+    "Years at Company",
+    "Job Role",
+    "Monthly Income",
+    "Work-Life Balance",
+    "Job Satisfaction",
+    "Performance Rating",
+    "Number of Promotions",
+    "Overtime",
+    "Distance from Home",
+    "Education Level",
+    "Marital Status",
+    "Number of Dependents",
+    "Job Level",
+    "Company Size",
+    "Company Tenure",
+    "Remote Work",
+    "Leadership Opportunities",
+    "Innovation Opportunities",
+    "Company Reputation",
+    "Employee Recognition"
+  ],
+  "label_encoders": {
+    "Gender": {
+      "Female": 0,
+      "Male": 1
+    },
+    "Job Role": {
+      "Education": 0,
+      "Finance": 1,
+      "Healthcare": 2,
+      "Media": 3,
+      "Technology": 4
+    },
+    "Work-Life Balance": {
+      "Excellent": 0,
+      "Fair": 1,
+      "Good": 2,
+      "Poor": 3
+    },
+    "Job Satisfaction": {
+      "High": 0,
+      "Low": 1,
+      "Medium": 2,
+      "Very High": 3
+    },
+    "Performance Rating": {
+      "Average": 0,
+      "Below Average": 1,
+      "High": 2,
+      "Low": 3
+    },
+    "Overtime": {
+      "No": 0,
+      "Yes": 1
+    },
+    "Education Level": {
+      "Associate Degree": 0,
+      "Bachelor\u2019s Degree": 1,
+      "High School": 2,
+      "Master\u2019s Degree": 3,
+      "PhD": 4
+    },
+    "Marital Status": {
+      "Divorced": 0,
+      "Married": 1,
+      "Single": 2
+    },
+    "Job Level": {
+      "Entry": 0,
+      "Mid": 1,
+      "Senior": 2,
+      "nan": 3
+    },
+    "Company Size": {
+      "Large": 0,
+      "Medium": 1,
+      "Small": 2,
+      "nan": 3
+    },
+    "Remote Work": {
+      "No": 0,
+      "Yes": 1,
+      "nan": 2
+    },
+    "Leadership Opportunities": {
+      "No": 0,
+      "Yes": 1,
+      "nan": 2
+    },
+    "Innovation Opportunities": {
+      "No": 0,
+      "Yes": 1,
+      "nan": 2
+    },
+    "Company Reputation": {
+      "Excellent": 0,
+      "Fair": 1,
+      "Good": 2,
+      "Poor": 3,
+      "nan": 4
+    },
+    "Employee Recognition": {
+      "High": 0,
+      "Low": 1,
+      "Medium": 2,
+      "Very High": 3,
+      "nan": 4
+    }
+  }
+}
